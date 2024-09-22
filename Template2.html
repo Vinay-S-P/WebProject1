@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="template2.css">
+    <style>
+        #page1 {
+            width: 100%;
+            height: 650px;
+            background-image: url(/Image/hero-bg.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 700px;
+
+
+        }
+
+        #divheader {
+            background-color: #1c1c1c;
+            width: 100%;
+            height: 55px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* position: fixed;
+            top: 0px; 
+            z-index: 5; */
+
+
+
+
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav {
+            height: 55px;
+            width: 100%;
+            margin-top: 0px;
+
+            display: flex;
+            justify-content: space-between;
+            /* position: fixed;
+            top: 0px; 
+            z-index: 5; */
+
+
+
+        }
+
+        #nav1 {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding-top: 0px;
+
+        }
+
+        li:hover {
+            background-color: #1c1c1c;
+            color: white;
+        }
+
+        li:active {
+            background-color: #1c1c1c;
+        }
+
+        li {
+            list-style: none;
+            padding: 15px;
+            padding-top: 30px;
+            padding-bottom: 10px;
+            margin-right: 5px;
+
+            /* padding-top: 35px; */
+        }
+
+        #index_text {
+            position: absolute;
+            left: 140px;
+            top: 200px;
+
+        }
+
+        #btn1 {
+            padding: 5px 35px;
+            font-size: 18px;
+            text-align: center;
+            width: 180px;
+            height: 45px;
+            background-color: #ffffff;
+            color: black;
+
+        }
+
+        #btn1:hover {
+            color: white;
+            border: 1px solid white;
+            background: transparent;
+        }
+
+        #btn2 {
+            font-size: 16px;
+            text-align: center;
+            width: 180px;
+            height: 45px;
+            background-color: #f1db25;
+            color: white;
+        }
+
+        #btn2:hover {
+            color: yellow;
+            border: 1px solid yellow;
+            background: transparent;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div id="page1">
+            <div id="divheader">
+                <a href="">
+                    <i class="fa-solid fa-location-dot fa-beat" style="color: #FFD43B;"></i>
+                    <span>
+                        Lorem ipsum dolor sit amet,
+                    </span>
+                </a>
+                <a href="">
+                    <i class="fa-solid fa-phone" style="color: #FFD43B;"></i>
+                    <span>
+                        Call : +01 1234567890
+                    </span>
+                </a>
+                <a href="">
+                    <i class="fa-solid fa-envelope" style="color: #FFD43B;"></i>
+                    <span>
+                        demo@gmail.com
+                    </span>
+                </a>
+
+
+            </div>
+            <nav>
+                <div>
+                    <span
+                        style="color: white; font-size: 35px; padding: 25px; font-weight: bold; align-items: center; position: absolute; top:35px">
+                        <b>Guarder</b>
+                    </span>
+                </div>
+                <div id="nav1">
+                    <li><a href="#page1">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#service">SERVICES</a></li>
+                    <li><a href="#guard">GUARDS</a></li>
+                    <li><a href="#contactus">CONTACT US</a></li>
+                </div>
+
+            </nav>
+            <div id="index_text">
+                <h1 style="margin-bottom: 1.5rem; color: white; font-size: 45px;">YOUR SAFTEY
+                    <br>
+                    <span style="color: yellow; font-weight: 600;">OUR RESPONSIBILITY</span>
+                </h1>
+
+                <p style="color: white; margin-bottom: 35px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod magna <br> aliqua. Ut enim ad minim veniam
+                </p>
+
+                <button id="btn1">Read more</button>&nbsp; &nbsp;
+                <button id="btn2">GET A Quote </button>
+
+            </div>
+
+        </div>
+    </header>
+    <div id="about">
+        <div id="about1">
+            <div id="aboutimg">
+
+            </div>
+            <div id="abouttext">
+                <h2>
+                    <u>Who</u> Are We?
+                </h2>
+
+                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: bold; line-height: 20px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit
+                </p>
+                <button id="btn2">Read More </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="service">
+        <h1>OUR SERVICES</h1>
+        <div id="boxs">
+            <div id="txtbox1">
+                <i class="fa-solid fa-house-lock fa-beat fa-2xl" style="color: #000000;"></i>
+                <h2><u>
+                        Home Security</u>
+                </h2>
+                <p>
+                    Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut
+                    minus tenetur corrupti excepturi ullam.
+                </p>
+                <button id="btn2">Read More </button>
+
+            </div>
+            <div id="txtbox2">
+                <i class="fa-solid fa-file-contract fa-beat fa-2xl" style="color: #000205;"></i>
+                <h2><u>
+                        Office Security</u>
+                </h2>
+                <p>
+                    Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut
+                    minus tenetur corrupti excepturi ullam.
+                </p>
+                <button id="btn2">Read More </button>
+            </div>
+            <div id="txtbox3">
+                <i class="fa-solid fa-user-astronaut fa-beat fa-2xl" style="color: #000000;"></i>
+                <h2><u>
+                        Bodyguard</u>
+                </h2>
+                <p>
+                    Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut
+                    minus tenetur corrupti excepturi ullam.
+                </p>
+                <button id="btn2">Read More </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="page4">
+        <div id="text">
+            <h1>WHAT IS SAYS OUR CLIENTS</h1>
+        </div>
+        <div id="content">
+            <div><img src="/Image/client.png" alt="" height="150px" width="190px"></div>
+            <h2>Minim Veniam</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            </p>
+        </div>
+        <div id="crl"><span>></span></div>
+        <div id="crl1"><span>
+        </span>
+        </div>
+    </div>
+
+
+    <div id="contactus">
+
+        <div id="heading">
+            <h1>GET IN TOUCH</h1>
+        </div>
+        <div>
+            <form action="" method="get">
+                <table>
+                    <tr>
+                        <td>
+                            <input type="text" name="full_name" placeholder="FULL NAME">
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>
+                            <input type="email" name="email" placeholder="EMAIL">
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>
+                            <input type="tel" name="number" placeholder="PHONE NUMBER" pattern="[0-9]{10}">
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>
+                            <textarea name="message" id="" placeholder="MESSAGE" rows="30"> </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <button id="btnc" type="submit">SUBMIT </button>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div id="guard">
+        <div id="text1">
+            <h1>OUR GUARDS</h1>
+            <p>Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspendisse vel, sed quam nulla
+                mauris iaculis. Erat eget vitae malesuada, tortor tincidunt porta lorem lectus.</p>
+        </div>
+        <div id="phts">
+            <div id="phts1">
+                <div id="abc"></div>
+                <h1>Martin Anderson</h1>
+                <h2>supervisor</h2>
+            </div>
+
+            <div id="phts2">
+                <div id="abc1"></div>
+                <h1>Martin Anderson</h1>
+                <h2>supervisor</h2>
+            </div>
+            <div id="phts3">
+                <div id="abc2"></div>
+                <h1>Martin Anderson</h1>
+                <h2>supervisor</h2>
+            </div>
+            <button id="btn2">VIEW ALL</button>
+        </div>
+    </div>
+    <div id="end">
+        <div id="rows">
+            <div id="col1">
+                <a href="#home">Guarder</a>
+                <p>dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quisdotempor incididunt r</p>
+            </div>
+            <div id="col2">
+                <h1>Useful Links</h1>
+                <a href="#home">dolor sit amet, consectetur</a><br>
+                <a href="#home">magna aliqua. Ut enim ad</a><br>
+                <a href="#home">minim veniam,</a>
+                <a href="#home">quisdotempor incididunt r</a>
+            </div>
+            <div id="col3">
+                <h1>Contact Us</h1>
+                <div id="details">
+                    <a href="">
+                        <i class="fa-solid fa-location-dot fa-beat" style="color: #FFD43B;"></i>
+                        <span>
+                            Lorem ipsum dolor sit amet,
+                        </span>
+                    </a><br>
+                    <a href="">
+                        <i class="fa-solid fa-phone" style="color: #FFD43B;"></i>
+                        <span>
+                            Call : +01 1234567890
+                        </span>
+                    </a><br>
+                    <a href="">
+                        <i class="fa-solid fa-envelope" style="color: #FFD43B;"></i>
+                        <span>
+                            demo@gmail.com
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div id="col4">
+                <h1>Newsletter</h1>
+                <form action="">
+                    <input type="email" placeholder="enter your email" id="email" style="width: 190px; ">
+                    <button id="btnscr">SUBSCRIBE</button>
+                </form><br>
+                <div id="sociel">
+                    <a href="">
+                        <i class="fa-brands fa-facebook-f fa-beat" style="color: #f7f7f7;"></i> </a>&nbsp;
+                    <a href="">
+                        <i class="fa-brands fa-twitter fa-beat" style="color: #f5f5f5;"></i> </a>&nbsp;
+                    <a href="">
+                        <i class="fa-brands fa-youtube fa-beat" style="color: #ffffff;"></i> </a>&nbsp;
+                    <a href="">
+                        <i class="fa-brands fa-instagram fa-beat" style="color: #fafafa;"></i> </a>&nbsp;
+                </div>
+
+            </div>
+
+
+        </div>
+        <div id="rights">
+            <p>© 2024 All Rights Reserved. Design by Free Html Templates</p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

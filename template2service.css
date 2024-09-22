@@ -1,0 +1,157 @@
+#service {
+    width: 100%;
+    height: 575px;
+    background-color: #1c1c1c;
+    margin-top: 0px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+div>h1 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#boxs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+#txtbox1 {
+    width: 350px;
+    height: 375px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+
+
+}
+
+#txtbox1 i {
+    position: absolute;
+    top: 75px;
+    left: 155px;
+
+}
+
+#txtbox1 h2 {
+    margin-top: 40px;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+
+}
+
+#txtbox1 p {
+    margin-top: 40px;
+
+    height: 60px;
+    width: 150px;
+    font-weight: bold;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    margin-top: 75px;
+
+}
+
+#txtbox1 button {
+    margin-top: 250px;
+    position: absolute;
+    top: 70px;
+    left: 85px;
+}
+
+
+#txtbox2 {
+    width: 350px;
+    height: 375px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#txtbox2 i {
+    position: absolute;
+    top: 75px;
+    left: 155px;
+
+}
+
+#txtbox2 h2 {
+    margin-top: 40px;
+    position: absolute;
+    top: 70px;
+    left: 95px;
+
+}
+
+#txtbox2 p {
+    margin-top: 40px;
+
+    height: 60px;
+    width: 150px;
+    font-weight: bold;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    margin-top: 75px;
+    text-align: center;
+
+}
+
+#txtbox2 button {
+    margin-top: 250px;
+    position: absolute;
+    top: 70px;
+    left: 85px;
+}
+
+#txtbox3 {
+    width: 350px;
+    height: 375px;
+    background-color: white;
+    position: relative;
+}
+#txtbox3 i {
+    position: absolute;
+    top: 75px;
+    left: 175px;
+
+}
+
+#txtbox3 h2 {
+    margin-top: 40px;
+    position: absolute;
+    top: 70px;
+    left: 125px;
+
+}
+
+#txtbox3 p {
+    margin-top: 40px;
+
+    height: 60px;
+    width: 150px;
+    font-weight: bold;
+    position: absolute;
+    top: 70px;
+    left: 110px;
+    margin-top: 75px;
+    text-align: center;
+
+}
+
+#txtbox3 button {
+    margin-top: 250px;
+    position: absolute;
+    top: 70px;
+    left: 95px;
+}

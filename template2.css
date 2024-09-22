@@ -1,0 +1,66 @@
+@import url(template2service.css);
+@import url(template2page3.css);
+@import url(template2Contactus.css);
+@import url(template2guard.css);
+@import url(template2End.css);
+#about {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    
+}
+
+#about1 {
+    width: 720px;
+    height: 301px;
+    background-color: white;
+    position: absolute;
+    left: 170px;
+    margin-top: 80px;
+    margin-left: 0px;
+}
+
+#aboutimg {
+    width: 500px;
+    height: 350px;
+    background-image: url(/Image/about-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 350px;
+}
+
+#abouttext {
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 450px;
+    padding: 10px 0px 10px 40px;
+}
+
+#abouttext>h2 {
+
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+margin-bottom: 0.5rem;
+
+}
+
+/* #service{
+    width: 100%;
+    height:575px;
+    background-color: #1c1c1c;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+ div>h1{
+    color: white;
+
+} */

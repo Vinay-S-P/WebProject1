@@ -1,0 +1,152 @@
+#guard{
+    width: 100vw;
+    height: 825px;
+    position: relative;
+}
+
+#text1{
+    width: 900px;
+    height: 150px;
+}
+#text1 > h1{
+    color: black;
+    text-align: center;
+    margin-left: 600px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 17px;
+    margin-bottom: 0.1rem;
+    
+}
+#text1>p{
+    text-align: center;
+    margin-left: 325px;
+    width: 900px;
+    font-size: 21px;
+    text-align-last: center;
+}
+#phts{
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 15px;
+    top: 250px;
+
+}
+#phts1{
+    vertical-align: middle;
+    border-style: none;
+    width: 375px;
+    height: 450px;
+    background-image: url(/Image/guard1.jpg);
+    background-repeat: no-repeat;
+    background-size: 375px 450px;
+    position: relative;
+    
+   
+}
+#abc{
+
+    height: 125px;
+    width: 375px;
+    background-color: rgba(28,28,28,.75);
+    position: absolute;
+    top: 325px;
+    left: 0px;
+}
+#phts2{
+    vertical-align: middle;
+    border-style: none;
+    width: 375px;
+    height: 450px;
+    background-image: url(/Image/guard2.jpg);
+    background-repeat: no-repeat;
+    background-size: 375px 450px;
+   
+}
+/* #abc1{
+
+    height: 125px;
+    width: 375px;
+    background-color: rgba(28,28,28,.75);
+    position: relative;
+    top: 325px;
+    left: 0px;
+} */
+#phts3{
+    vertical-align: middle;
+    border-style: none;
+    width: 375px;
+    height: 450px;
+    background-image: url(/Image/guard3.jpg);
+    background-repeat: no-repeat;
+    background-size: 375px 450px;
+   
+}
+/* #abc2{
+
+    height: 125px;
+    width: 375px;
+    background-color: rgba(28,28,28,.75);
+    position: relative;
+    top: 325px;
+    left: 0px;
+} */
+#phts1>h1{
+    text-align: center;
+    position: absolute;
+    top: 270px;
+    left: 58px;
+    font: 1em sans-serif;
+    font-size: 30px;
+    width: 250px;
+}
+#phts1>h2{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 340px;
+    left: 120px;
+    font: 1em sans-serif;
+    font-size: 25px;
+}
+#phts2>h1{
+    text-align: center;
+    position: relative;
+    top: 270px;
+    left: 58px;
+    font: 1em sans-serif;
+    font-size: 30px;
+    width: 250px;
+}
+#phts2>h2{
+    color: white;
+    text-align: center;
+    margin-top: 255px;
+    font: 1em sans-serif;
+    font-size: 25px;
+    
+}
+#phts3>h1{
+    text-align: center;
+    position: relative;
+    top: 270px;
+    left: 58px;
+    font: 1em sans-serif;
+    font-size: 30px;
+    width: 250px;
+}
+#phts3>h2{
+    color: white;
+    text-align: center;
+    margin-top: 255px;
+    font: 1em sans-serif;
+    font-size: 25px;
+    
+}
+#phts>button{
+    position: absolute;
+    top: 490px;
+}
