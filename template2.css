@@ -26,7 +26,7 @@
 #aboutimg {
     width: 500px;
     height: 350px;
-    background-image: url(/Image/about-img.jpg);
+    background-image: url(./Image/about-img.jpg);
     background-repeat: no-repeat;
     background-size: 500px 350px;
 }

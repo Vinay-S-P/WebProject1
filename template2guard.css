@@ -40,7 +40,7 @@
     border-style: none;
     width: 375px;
     height: 450px;
-    background-image: url(/Image/guard1.jpg);
+    background-image: url(./Image/guard1.jpg);
     background-repeat: no-repeat;
     background-size: 375px 450px;
     position: relative;
@@ -61,7 +61,7 @@
     border-style: none;
     width: 375px;
     height: 450px;
-    background-image: url(/Image/guard2.jpg);
+    background-image: url(./Image/guard2.jpg);
     background-repeat: no-repeat;
     background-size: 375px 450px;
    
@@ -80,7 +80,7 @@
     border-style: none;
     width: 375px;
     height: 450px;
-    background-image: url(/Image/guard3.jpg);
+    background-image: url(./Image/guard3.jpg);
     background-repeat: no-repeat;
     background-size: 375px 450px;
    
